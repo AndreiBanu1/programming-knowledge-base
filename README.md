@@ -1,6 +1,6 @@
-# ts-knowledge-base
+# programming-knowledge-base
 
-A personal TypeScript & JavaScript knowledge base — book exercises, worked
+A personal TypeScript & Python knowledge base — book exercises, worked
 examples, algorithms, and performance notes — all in a single monorepo sharing
 one toolchain.
 
