@@ -1,0 +1,7 @@
+unless you’re working in Haskell/OCaml/Rust where functional code gets compiled to efficient machine code, functional will always be slower than imperative.
+
+The problem with those methods is that:
+They need to make a full copy of the array, and those copies later need to be freed by the garbage collector.
+They loop N times for N operations, whereas a for loop would allow looping once.
+
+Object methods such as Object.values(), Object.keys() and Object.entries() suffer from similar problems, as they also allocate more data, and memory accesses are the root of all performance issues

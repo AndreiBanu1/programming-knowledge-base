@@ -1,0 +1,2 @@
+Be aware that using the incorrect data structures for your use-case can have a bigger impact than any of the optimizations above. 
+Be familiar with the native ones like Map and Set, and to learn about linked lists, priority queues, trees (RB and B+) and tries.

@@ -1,0 +1,21 @@
+! Use numbers instead of strings when you can
+
+Primitives → usually stored directly in stack frames or inline in objects
+Objects/arrays/functions → stored in the heap
+Variables hold either:
+a value (primitive), or
+a reference to heap memory (object)
+
+
+Numbers are passed within the memory, by value.
+Comparing STRINGS in JS is extremly slow.
+
+JavaScript uses pass-by-value for everything. Objects are passed as references (which are values pointing to heap memory). 
+Numbers and strings are primitives, and are compared differently internally, but modern engines heavily optimize both. 
+Numbers are generally cheaper to compare than strings, but the difference is usually only relevant in performance-critical loops.
+    1. it checks if current element position in memory is the same as the compared element position.
+    2. if not, then it goes letter by letter and compare.
+
+Problems:
+-> reaching to the memory is always slow.
+-> comparing strings is 60% slower than numbers.

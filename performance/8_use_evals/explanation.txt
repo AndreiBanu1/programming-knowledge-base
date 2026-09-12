@@ -1,0 +1,2 @@
+good use-case for eval could be to compile a filter predicate function where you discard the branches that you know will never be taken. 
+In general, any function that is going to be run in a very hot loop is a good candidate for this kind of optimization.

@@ -1,0 +1,981 @@
+{
+  "count": 9,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "identifier": "9781835468814",
+      "ourn": "urn:orm:video:9781835468814",
+      "popularity": 0.00013042,
+      "name": "70+ JavaScript Challenges - Data Structures and Algorithms",
+      "type": "video",
+      "description": {
+        "text/html": "<span><p>In this 12-hour course, you'll master data structures and algorithms in JavaScript through hands-on challenges and theoretical insights. Learn to design optimal solutions, analyze performance, and prepare for real-world applications while building confidence in your problem-solving skills.</p><p><b>What I will be able to do after this course</b></p><ul><li>Learn to implement fundamental data structures like arrays, hash tables, and linked lists from scratch.</li><li>Master practical and theoretical aspects of algorithms, including sorting and recursion.</li><li>Enhance your problem-solving skills with over 70 real-world coding challenges.</li><li>Understand and apply concepts of time complexity and optimize code efficiently.</li><li>Practice interview-style questions to prepare for coding assessments and job interviews.</li></ul><p><b>Course Instructor(s)</b></p><p>Brad Traversy, with extensive experience in software development and teaching, has a passion for breaking down complex technical concepts into understandable steps. His approach combines practical examples with best practices, ensuring you not only learn the 'how' but also the 'why'. With years of mentoring developers, he's committed to simplifying the journey to becoming a proficient programmer.</p><p><b>Who is it for?</b></p><p>This course is designed for developers at an intermediate skill level who are familiar with JavaScript and aim to deepen their understanding of algorithms and data structures. Ideal for those preparing for technical interviews, seeking to optimize their coding skills, or simply aspiring to broaden their problem-solving toolkit with real-world examples.</p></span>",
+        "text/plain": "In this 12-hour course, you'll master data structures and algorithms in JavaScript through hands-on challenges and theoretical insights. Learn to design optimal solutions, analyze performance, and prepare for real-world applications while building confidence in your problem-solving skills. What I will be able to do after this course Learn to implement fundamental data structures like arrays, hash tables, and linked lists from scratch. Master practical and theoretical aspects of algorithms, including sorting and recursion. Enhance your problem-solving skills with over 70 real-world coding challenges. Understand and apply concepts of time complexity and optimize code efficiently. Practice interview-style questions to prepare for coding assessments and job interviews. Course Instructor(s) Brad Traversy, with extensive experience in software development and teaching, has a passion for breaking down complex technical concepts into understandable steps. His approach combines practical examples with best practices, ensuring you not only learn the 'how' but also the 'why'. With years of mentoring developers, he's committed to simplifying the journey to becoming a proficient programmer. Who is it for? This course is designed for developers at an intermediate skill level who are familiar with JavaScript and aim to deepen their understanding of algorithms and data structures. Ideal for those preparing for technical interviews, seeking to optimize their coding skills, or simply aspiring to broaden their problem-solving toolkit with real-world examples."
+      },
+      "status": "Live",
+      "language": "en",
+      "publication_date": "2023-10-31",
+      "talent": {
+        "url": "/api/v1/talent/work/urn:orm:video:9781835468814",
+        "contributors": [
+          {
+            "name": "Brad Traversy",
+            "order": 0,
+            "contributor_type": "author"
+          }
+        ]
+      },
+      "display_format": "video",
+      "tags": [
+        "structured-learning",
+        "course"
+      ],
+      "topics": [
+        {
+          "id": "a0765028-6564-479c-ad97-0bbb7cd80a8f",
+          "name": "JavaScript",
+          "slug": "javascript",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development",
+            "javascript"
+          ],
+          "order": 0,
+          "tag_type": "primary"
+        },
+        {
+          "id": "af66b49e-93c1-423b-ac06-be57ed9921fd",
+          "name": "Web Development",
+          "slug": "web-development",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development"
+          ],
+          "order": 1,
+          "tag_type": "indirect"
+        }
+      ],
+      "publishers": [
+        {
+          "uuid": "dd0773f2-2d09-4827-9191-33477b14398c",
+          "name": "Packt Publishing",
+          "url": "/api/v1/publishers/dd0773f2-2d09-4827-9191-33477b14398c/"
+        }
+      ],
+      "web_url": "/videos/-/9781835468814/",
+      "create_time": "2023-11-13T16:46:05.791154Z",
+      "work_last_modified": null,
+      "permissions": {
+        "e": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "p": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "v": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ]
+      },
+      "version": 1763592917667,
+      "content_levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "duration": 44917,
+      "has_quiz_question_bank": false,
+      "marketing_type": {
+        "id": "00000000-0000-0000-0000-000000000014",
+        "name": "on-demand course"
+      },
+      "alternative_formats": [],
+      "has_code_explain": false,
+      "has_code_translate": false,
+      "has_badge": true,
+      "has_sandbox": false,
+      "academies": [],
+      "cross_edition_id": null,
+      "in_learning_plans": []
+    },
+    {
+      "identifier": "9781789800104",
+      "ourn": "urn:orm:book:9781789800104",
+      "popularity": 0.00011559,
+      "name": "Advanced JavaScript",
+      "type": "book",
+      "description": {
+        "text/html": "<span><p>In \"Advanced JavaScript\", you will explore the intricacies of modern JavaScript, unlocking its powerful features to build dynamic, robust web applications. This book helps you master the ES6 syntax, dive into asynchronous programming, and adopt functional programming approaches to enhance your JavaScript expertise.</p><p><b>What this Book will help me do</b></p><ul><li>Gain proficiency with ES6 features to improve application development.</li><li>Master async programming concepts like Promises and async/await for better app responsiveness.</li><li>Implement TDD principles, ensuring quality code with real-world testing frameworks.</li><li>Deepen your knowledge of DOM manipulation and browser event handling with practical examples.</li><li>Build full-stack applications using Node.js for the backend and React for compelling frontends.</li></ul><p><b>Author(s)</b></p><p>Zachary Shute is an experienced software developer and educator passionate about JavaScript and modern web development. With years of professional programming experience and a deep commitment to teaching, Zachary has helped countless developers advance their understanding of JavaScript. His approachable writing style and practical examples make learning both accessible and engaging.</p><p><b>Who is it for?</b></p><p>This book is ideal for developers with a foundational understanding of JavaScript seeking to enhance their knowledge. If you're aiming to excel in professional JavaScript development or want to adopt a structured approach to advanced concepts like ES6, async programming, or functional programming, this book is for you. Whether you're advancing your skills or looking to break into professional-level work, \"Advanced JavaScript\" will help you achieve your goals.</p></span>",
+        "text/plain": "In \"Advanced JavaScript\", you will explore the intricacies of modern JavaScript, unlocking its powerful features to build dynamic, robust web applications. This book helps you master the ES6 syntax, dive into asynchronous programming, and adopt functional programming approaches to enhance your JavaScript expertise. What this Book will help me do Gain proficiency with ES6 features to improve application development. Master async programming concepts like Promises and async/await for better app responsiveness. Implement TDD principles, ensuring quality code with real-world testing frameworks. Deepen your knowledge of DOM manipulation and browser event handling with practical examples. Build full-stack applications using Node.js for the backend and React for compelling frontends. Author(s) Zachary Shute is an experienced software developer and educator passionate about JavaScript and modern web development. With years of professional programming experience and a deep commitment to teaching, Zachary has helped countless developers advance their understanding of JavaScript. His approachable writing style and practical examples make learning both accessible and engaging. Who is it for? This book is ideal for developers with a foundational understanding of JavaScript seeking to enhance their knowledge. If you're aiming to excel in professional JavaScript development or want to adopt a structured approach to advanced concepts like ES6, async programming, or functional programming, this book is for you. Whether you're advancing your skills or looking to break into professional-level work, \"Advanced JavaScript\" will help you achieve your goals."
+      },
+      "status": "Live",
+      "language": "en",
+      "publication_date": "2019-01-31",
+      "talent": {
+        "url": "/api/v1/talent/work/urn:orm:book:9781789800104",
+        "contributors": [
+          {
+            "name": "Zachary Shute",
+            "order": 0,
+            "contributor_type": "author"
+          }
+        ]
+      },
+      "display_format": "book",
+      "tags": [],
+      "topics": [
+        {
+          "id": "a0765028-6564-479c-ad97-0bbb7cd80a8f",
+          "name": "JavaScript",
+          "slug": "javascript",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development",
+            "javascript"
+          ],
+          "order": 0,
+          "tag_type": "primary"
+        }
+      ],
+      "publishers": [
+        {
+          "uuid": "dd0773f2-2d09-4827-9191-33477b14398c",
+          "name": "Packt Publishing",
+          "url": "/api/v1/publishers/dd0773f2-2d09-4827-9191-33477b14398c/"
+        }
+      ],
+      "web_url": "/library/view/-/9781789800104/",
+      "create_time": "2019-02-04T09:43:28.043088Z",
+      "work_last_modified": null,
+      "permissions": {
+        "e": [
+          {
+            "perms": [
+              "epubs"
+            ]
+          }
+        ],
+        "p": [
+          {
+            "perms": [
+              "epubs"
+            ]
+          }
+        ],
+        "v": [
+          {
+            "perms": [
+              "epubs"
+            ]
+          }
+        ]
+      },
+      "version": 1755493801701,
+      "content_levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "duration": null,
+      "has_quiz_question_bank": false,
+      "marketing_type": {
+        "id": "00000000-0000-0000-0000-000000000003",
+        "name": "book"
+      },
+      "alternative_formats": [],
+      "has_code_explain": false,
+      "has_code_translate": false,
+      "has_badge": false,
+      "has_sandbox": false,
+      "academies": [],
+      "cross_edition_id": null,
+      "in_learning_plans": []
+    },
+    {
+      "identifier": "9781839219054",
+      "ourn": "urn:orm:video:9781839219054",
+      "popularity": 0.00011218,
+      "name": "Advanced JavaScript Topics",
+      "type": "video",
+      "description": {
+        "text/html": "<span><p>In this 13-hour course, you'll deepen your understanding of advanced JavaScript concepts. You'll explore topics like functional programming, module patterns, and JSON data handling, all while honing your object-oriented programming skills for real-world applications.</p><p><b>What I will be able to do after this course</b></p><ul><li>Gain expertise in working with advanced object-oriented JavaScript concepts, including constructors and prototypes.</li><li>Master functional programming techniques in JavaScript, such as pure functions and immutability.</li><li>Effectively use JSON data, with best practices for loading, handling, and testing in JavaScript projects.</li><li>Implement and understand the namespace and module patterns for better code organization.</li><li>Learn best practices and advanced strategies to excel in JavaScript application development.</li></ul><p><b>Course Instructor(s)</b></p><p>Steven Hancock is an experienced JavaScript developer and educator who specializes in advanced topics. With years of experience teaching JavaScript, he emphasizes practical applications and coding exercises throughout his courses. Steven is dedicated to equipping learners with the skills they need to excel in their programming careers.</p><p><b>Who is it for?</b></p><p>This course is designed for developers with foundational JavaScript knowledge who want to advance their skills. Ideal students are those aiming to become proficient in implementing advanced JavaScript solutions in real-world projects. If your goal is to master concepts like functional programming, object-oriented programming, and JSON handling, this course is a perfect fit.</p></span>",
+        "text/plain": "In this 13-hour course, you'll deepen your understanding of advanced JavaScript concepts. You'll explore topics like functional programming, module patterns, and JSON data handling, all while honing your object-oriented programming skills for real-world applications. What I will be able to do after this course Gain expertise in working with advanced object-oriented JavaScript concepts, including constructors and prototypes. Master functional programming techniques in JavaScript, such as pure functions and immutability. Effectively use JSON data, with best practices for loading, handling, and testing in JavaScript projects. Implement and understand the namespace and module patterns for better code organization. Learn best practices and advanced strategies to excel in JavaScript application development. Course Instructor(s) Steven Hancock is an experienced JavaScript developer and educator who specializes in advanced topics. With years of experience teaching JavaScript, he emphasizes practical applications and coding exercises throughout his courses. Steven is dedicated to equipping learners with the skills they need to excel in their programming careers. Who is it for? This course is designed for developers with foundational JavaScript knowledge who want to advance their skills. Ideal students are those aiming to become proficient in implementing advanced JavaScript solutions in real-world projects. If your goal is to master concepts like functional programming, object-oriented programming, and JSON handling, this course is a perfect fit."
+      },
+      "status": "Live",
+      "language": "en",
+      "publication_date": "2019-11-26",
+      "talent": {
+        "url": "/api/v1/talent/work/urn:orm:video:9781839219054",
+        "contributors": [
+          {
+            "name": "Steven Hancock",
+            "order": 0,
+            "contributor_type": "author"
+          }
+        ]
+      },
+      "display_format": "video",
+      "tags": [
+        "structured-learning",
+        "course"
+      ],
+      "topics": [
+        {
+          "id": "a0765028-6564-479c-ad97-0bbb7cd80a8f",
+          "name": "JavaScript",
+          "slug": "javascript",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development",
+            "javascript"
+          ],
+          "order": 0,
+          "tag_type": "primary"
+        },
+        {
+          "id": "af66b49e-93c1-423b-ac06-be57ed9921fd",
+          "name": "Web Development",
+          "slug": "web-development",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development"
+          ],
+          "order": 1,
+          "tag_type": "indirect"
+        }
+      ],
+      "publishers": [
+        {
+          "uuid": "dd0773f2-2d09-4827-9191-33477b14398c",
+          "name": "Packt Publishing",
+          "url": "/api/v1/publishers/dd0773f2-2d09-4827-9191-33477b14398c/"
+        }
+      ],
+      "web_url": "/videos/-/9781839219054/",
+      "create_time": "2019-12-23T09:11:56.997993Z",
+      "work_last_modified": null,
+      "permissions": {
+        "e": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "p": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "v": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ]
+      },
+      "version": 1763592730131,
+      "content_levels": [
+        "advanced"
+      ],
+      "duration": 49977,
+      "has_quiz_question_bank": false,
+      "marketing_type": {
+        "id": "00000000-0000-0000-0000-000000000014",
+        "name": "on-demand course"
+      },
+      "alternative_formats": [],
+      "has_code_explain": false,
+      "has_code_translate": false,
+      "has_badge": true,
+      "has_sandbox": false,
+      "academies": [],
+      "cross_edition_id": null,
+      "in_learning_plans": []
+    },
+    {
+      "identifier": "9780137864591",
+      "ourn": "urn:orm:video:9780137864591",
+      "popularity": 0.00010797,
+      "name": "Test-Driven Development for JavaScript",
+      "type": "video",
+      "description": {
+        "text/html": "<span><strong>10+ Hours of Video Instruction</strong><br/><br/>\n\nLearn How to Use Test-Driven Development Techniques to Create High-Quality JavaScript Applications\n<br/>\n<br/>\n<strong>Overview</strong>\n<br/>\n<br/>\n<em>Test-Driven Development for JavaScript LiveLessons</em> brings you step-by-step knowledge to create high-quality JavaScript applications. The course teaches you how to apply test-driven technologies to create reliable and verifiable JavaScript solutions that are maintainable and adhere to best practices.\n<br/>\n<br/>\n\nJavaScript has become an indispensable language in modern-day computing. Writing JavaScript is relatively straightforward but writing high-quality JavaScript and testing it thoroughly is much harder. <em>Test-Driven Development for JavaScript LiveLessons</em> uses Jest for defining and running JavaScript and TypeScript tests. It also covers how to use Jest to test many popular types of JavaScript solutions, including Node.js applications on the server and React and Angular solutions at the client.\n<br/>\n<br/>\n\nTaught by experienced trainer and author, Andy Olsen, this course is your complete guide to mastering writing high-quality JavaScript. The course has hands-on demos throughout the lessons for better understanding of the topic areas.\n<br/>\n<br/>\n\nThe resource files for this LiveLesson can be downloaded from <a href=\"https://informit.com/content/images/9780137864706/downloads/JsTdd.zip\" target=\"_blank\">https://informit.core.ecollege.net/store/test-driven-development-for-javascript-livelessons-9780137864706</a>.\n<br/>\n<br/>\n<strong>About the Instructor</strong>\n<br/>\n<br/>\n<em>Andy Olsen</em> is a freelance consultant, instructor, and developer with more than 30 years of experience in IT. Andy began his professional career as a C/C++ developer and morphed into Java, C#, and other languages as the years passed by. He is actively involved in a wide range of technologies including full stack development, cloud native applications, data science, and more. He is passionate about technology education and runs training courses around the world across diverse market sectors.\n<br/>\n<br/>\n\nYou can find Andy here:<br/>\nhttps://www.linkedin.com/in/andy-olsen-481496/<br/>\nhttp://olsensoft.com/\n<br/>\n<br/>\n<strong>Skill Level</strong>\n<ul><li>Intermediate</li></ul>\n<strong>Learn How To</strong>\n<ul><li>Set up a testing environment for JavaScript and TypeScript</li><li>Organize tests into suites</li><li>Write effective tests for the user interface and for server-side code</li><li>Apply mocking techniques effectively</li><li>Test React applications</li><li>Test Angular applications</li></ul>\n<strong>Who Should Take This Course</strong>\n<ul><li>Individuals implementing client-side JavaScript web clients or server-side Node.js applications</li></ul>\n<strong>Course Requirements</strong>\n<ul><li>JavaScript programming experience, either creating client-side web applications or server-side Node.js applications</li></ul>\n<strong>About Pearson Video Training</strong>\n<br/>\n<br/>\n\nPearson publishes expert-led video tutorials covering a wide selection of technology topics designed to teach you the skills you need to succeed. These professional and personal technology videos feature world-leading author instructors published by your trusted technology brands: Addison-Wesley, Cisco Press, Pearson IT Certification, Sams, and Que Topics include: IT Certification, Network Security, Cisco Technology, Programming, Web Development, Mobile Development, and more. Learn more about Pearson Video training at http://www.informit.com/video.<br/></span>",
+        "text/plain": "10+ Hours of Video Instruction Learn How to Use Test-Driven Development Techniques to Create High-Quality JavaScript Applications Overview Test-Driven Development for JavaScript LiveLessons brings you step-by-step knowledge to create high-quality JavaScript applications. The course teaches you how to apply test-driven technologies to create reliable and verifiable JavaScript solutions that are maintainable and adhere to best practices. JavaScript has become an indispensable language in modern-day computing. Writing JavaScript is relatively straightforward but writing high-quality JavaScript and testing it thoroughly is much harder. Test-Driven Development for JavaScript LiveLessons uses Jest for defining and running JavaScript and TypeScript tests. It also covers how to use Jest to test many popular types of JavaScript solutions, including Node.js applications on the server and React and Angular solutions at the client. Taught by experienced trainer and author, Andy Olsen, this course is your complete guide to mastering writing high-quality JavaScript. The course has hands-on demos throughout the lessons for better understanding of the topic areas. The resource files for this LiveLesson can be downloaded from https://informit.core.ecollege.net/store/test-driven-development-for-javascript-livelessons-9780137864706. About the Instructor Andy Olsen is a freelance consultant, instructor, and developer with more than 30 years of experience in IT. Andy began his professional career as a C/C++ developer and morphed into Java, C#, and other languages as the years passed by. He is actively involved in a wide range of technologies including full stack development, cloud native applications, data science, and more. He is passionate about technology education and runs training courses around the world across diverse market sectors. You can find Andy here: https://www.linkedin.com/in/andy-olsen-481496/ http://olsensoft.com/ Skill Level Intermediate Learn How To Set up a testing environment for JavaScript and TypeScript Organize tests into suites Write effective tests for the user interface and for server-side code Apply mocking techniques effectively Test React applications Test Angular applications Who Should Take This Course Individuals implementing client-side JavaScript web clients or server-side Node.js applications Course Requirements JavaScript programming experience, either creating client-side web applications or server-side Node.js applications About Pearson Video Training Pearson publishes expert-led video tutorials covering a wide selection of technology topics designed to teach you the skills you need to succeed. These professional and personal technology videos feature world-leading author instructors published by your trusted technology brands: Addison-Wesley, Cisco Press, Pearson IT Certification, Sams, and Que Topics include: IT Certification, Network Security, Cisco Technology, Programming, Web Development, Mobile Development, and more. Learn more about Pearson Video training at http://www.informit.com/video."
+      },
+      "status": "Live",
+      "language": "en",
+      "publication_date": "2022-07-06",
+      "talent": {
+        "url": "/api/v1/talent/work/urn:orm:video:9780137864591",
+        "contributors": [
+          {
+            "name": "Andy Olsen",
+            "order": 0,
+            "contributor_type": "author"
+          }
+        ]
+      },
+      "display_format": "video",
+      "tags": [
+        "structured-learning"
+      ],
+      "topics": [
+        {
+          "id": "a0765028-6564-479c-ad97-0bbb7cd80a8f",
+          "name": "JavaScript",
+          "slug": "javascript",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development",
+            "javascript"
+          ],
+          "order": 0,
+          "tag_type": "primary"
+        },
+        {
+          "id": "6f89de30-d4e1-43dc-b4f7-5bb20dd69c05",
+          "name": "Test-Driven Development (TDD)",
+          "slug": "test-driven-development-tdd",
+          "topic_hierarchy": [
+            "software-development",
+            "coding-practices",
+            "test-driven-development-tdd"
+          ],
+          "order": 1,
+          "tag_type": "secondary"
+        },
+        {
+          "id": "af66b49e-93c1-423b-ac06-be57ed9921fd",
+          "name": "Web Development",
+          "slug": "web-development",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development"
+          ],
+          "order": 2,
+          "tag_type": "indirect"
+        },
+        {
+          "id": "0e846614-bdaf-4143-b97a-8fc22b880ab3",
+          "name": "Coding Practices",
+          "slug": "coding-practices",
+          "topic_hierarchy": [
+            "software-development",
+            "coding-practices"
+          ],
+          "order": 3,
+          "tag_type": "indirect"
+        },
+        {
+          "id": "7233c74b-ad1d-47fe-bb39-77016f89d0a9",
+          "name": "QA / Testing",
+          "slug": "qa-testing",
+          "topic_hierarchy": [
+            "software-development",
+            "qa-testing"
+          ],
+          "order": 4,
+          "tag_type": "indirect"
+        }
+      ],
+      "publishers": [
+        {
+          "uuid": "db6675ca-7122-4551-bff6-0a90688aa5ca",
+          "name": "Pearson",
+          "url": "/api/v1/publishers/db6675ca-7122-4551-bff6-0a90688aa5ca/"
+        }
+      ],
+      "web_url": "/videos/-/9780137864591/",
+      "create_time": "2022-07-06T20:19:04.669800Z",
+      "work_last_modified": null,
+      "permissions": {
+        "e": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "p": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "v": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ]
+      },
+      "version": 1763595905478,
+      "content_levels": [
+        "intermediate"
+      ],
+      "duration": 64141,
+      "has_quiz_question_bank": false,
+      "marketing_type": {
+        "id": "00000000-0000-0000-0000-000000000014",
+        "name": "on-demand course"
+      },
+      "alternative_formats": [],
+      "has_code_explain": false,
+      "has_code_translate": false,
+      "has_badge": true,
+      "has_sandbox": false,
+      "academies": [],
+      "cross_edition_id": null,
+      "in_learning_plans": []
+    },
+    {
+      "identifier": "10000DIHV2022108",
+      "ourn": "urn:orm:video:10000DIHV2022108",
+      "popularity": 0.00010656,
+      "name": "JavaScript Fundamentals",
+      "type": "video",
+      "description": {
+        "text/html": "<span><p>Get started with JavaScript coding in under two hours. As an intro course for beginners or a refresher for advanced programmers, this fast-paced video tutorial gets you coding quickly so you can easily update your web pages. You will learn the core fundamentals of JavaScript to create interactive and dynamic web page content and let your web pages come to life!</p><p>JavaScript is one of the common languages used to create powerful web experiences. We will discuss all the basics of getting started coding with JavaScript. We provide example code so you can explore writing JavaScript code to develop web content.</p><p>In this course, we will cover basic script tags and how they work, then demonstrate how to apply the code to make things happen on your web pages. This video tutorial takes you from the basics of JavaScript to connecting with web page elements via the Document Object Model (also known as DOM). Dive right in and start coding with JavaScript now.</p><p style=\"background-color: lightgray; padding: 0 1em 0 1em;\"><br/><strong>Distributed by Manning Publications</strong><br/><br/>This course was created independently by <strong>Laurence Svekis</strong> and is distributed by Manning through our exclusive liveVideo platform.<br/><br/></p><br/><br/><b>About the Technology</b><br/><br/><br/><b>About the Video</b><br/><br/><br/><b>What's Inside</b><br/><ul><li aria-level=\"1\">Explore how to create dynamic web pages with JavaScript</li><li aria-level=\"1\">Learn to code with JavaScript Developer Setup Tools and resources</li><li aria-level=\"1\">Create JavaScript code and run it in a browser</li><li aria-level=\"1\">Use JavaScript data types, objects, and arrays</li><li aria-level=\"1\">Apply and run blocks of code with JavaScript functions</li><li aria-level=\"1\">Create interactive web pages with JavaScript DOM elements</li><li aria-level=\"1\">Apply JavaScript logic conditions, if statements, switch statements, and ternary operators</li><li aria-level=\"1\">Apply JavaScript loops (for, while, foreach, and so on) to iterate blocks of code</li><li aria-level=\"1\">Explore common built-In methods, random values, and string methods</li><li aria-level=\"1\">Create an interactive dynamic list</li></ul><br/><br/><b>About the Reader</b><br/>Code editor and basic HTML and CSS<br/><br/><b>About the Author</b><br/><b>Laurence Svekis</b> is an experienced Google developer who worked on multiple enterprise level applications, hundreds of websites and business solutions, and many unique and innovative web applications. He created his first computer application in 1990 and first website in 1998. Laurence has been providing web development courses and digital marketing strategy courses since 2002, teaching countless learners how to bring amazing things to life online.<br/><br/><b>Quotes</b><br/>\n</span>",
+        "text/plain": "Get started with JavaScript coding in under two hours. As an intro course for beginners or a refresher for advanced programmers, this fast-paced video tutorial gets you coding quickly so you can easily update your web pages. You will learn the core fundamentals of JavaScript to create interactive and dynamic web page content and let your web pages come to life! JavaScript is one of the common languages used to create powerful web experiences. We will discuss all the basics of getting started coding with JavaScript. We provide example code so you can explore writing JavaScript code to develop web content. In this course, we will cover basic script tags and how they work, then demonstrate how to apply the code to make things happen on your web pages. This video tutorial takes you from the basics of JavaScript to connecting with web page elements via the Document Object Model (also known as DOM). Dive right in and start coding with JavaScript now. Distributed by Manning Publications This course was created independently by Laurence Svekis and is distributed by Manning through our exclusive liveVideo platform. About the Technology About the Video What's Inside Explore how to create dynamic web pages with JavaScript Learn to code with JavaScript Developer Setup Tools and resources Create JavaScript code and run it in a browser Use JavaScript data types, objects, and arrays Apply and run blocks of code with JavaScript functions Create interactive web pages with JavaScript DOM elements Apply JavaScript logic conditions, if statements, switch statements, and ternary operators Apply JavaScript loops (for, while, foreach, and so on) to iterate blocks of code Explore common built-In methods, random values, and string methods Create an interactive dynamic list About the Reader Code editor and basic HTML and CSS About the Author Laurence Svekis is an experienced Google developer who worked on multiple enterprise level applications, hundreds of websites and business solutions, and many unique and innovative web applications. He created his first computer application in 1990 and first website in 1998. Laurence has been providing web development courses and digital marketing strategy courses since 2002, teaching countless learners how to bring amazing things to life online. Quotes"
+      },
+      "status": "Live",
+      "language": "en",
+      "publication_date": "2022-08-15",
+      "talent": {
+        "url": "/api/v1/talent/work/urn:orm:video:10000DIHV2022108",
+        "contributors": [
+          {
+            "name": "Laurence Svekis",
+            "order": 0,
+            "contributor_type": "author"
+          }
+        ]
+      },
+      "display_format": "video",
+      "tags": [
+        "structured-learning"
+      ],
+      "topics": [
+        {
+          "id": "a0765028-6564-479c-ad97-0bbb7cd80a8f",
+          "name": "JavaScript",
+          "slug": "javascript",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development",
+            "javascript"
+          ],
+          "order": 0,
+          "tag_type": "primary"
+        },
+        {
+          "id": "f158cd12-ed67-4382-9a93-59efe77fcec8",
+          "name": "Programming Fundamentals",
+          "slug": "programming-fundamentals",
+          "topic_hierarchy": [
+            "software-development",
+            "programming-fundamentals"
+          ],
+          "order": 1,
+          "tag_type": "secondary"
+        },
+        {
+          "id": "af66b49e-93c1-423b-ac06-be57ed9921fd",
+          "name": "Web Development",
+          "slug": "web-development",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development"
+          ],
+          "order": 2,
+          "tag_type": "indirect"
+        }
+      ],
+      "publishers": [
+        {
+          "uuid": "ea8b4990-f3a7-4583-8839-606fdf1a8c20",
+          "name": "Manning Publications",
+          "url": "/api/v1/publishers/ea8b4990-f3a7-4583-8839-606fdf1a8c20/"
+        }
+      ],
+      "web_url": "/videos/-/10000DIHV2022108/",
+      "create_time": "2022-12-14T11:49:02.428250Z",
+      "work_last_modified": null,
+      "permissions": {
+        "e": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "p": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "v": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ]
+      },
+      "version": 1763598355628,
+      "content_levels": [
+        "beginner"
+      ],
+      "duration": 7759,
+      "has_quiz_question_bank": false,
+      "marketing_type": {
+        "id": "00000000-0000-0000-0000-000000000014",
+        "name": "on-demand course"
+      },
+      "alternative_formats": [],
+      "has_code_explain": false,
+      "has_code_translate": false,
+      "has_badge": true,
+      "has_sandbox": false,
+      "academies": [],
+      "cross_edition_id": null,
+      "in_learning_plans": []
+    },
+    {
+      "identifier": "9781617297915VE",
+      "ourn": "urn:orm:video:9781617297915VE",
+      "popularity": 0.00010376,
+      "name": "Testing JavaScript Applications, Video Edition",
+      "type": "video",
+      "description": {
+        "text/html": "<span><h5>In Video Editions the narrator reads the book while the content, figures, code listings, diagrams, and text appear on the screen. Like an audiobook that you can also watch as a video.</h5><br/> <b>Automated testing will help you write high-quality software in less time, with more confidence, fewer bugs, and without constant manual oversight. <i>Testing JavaScript Applications</i> is a guide to building a comprehensive and reliable JS application testing suite, covering both how to write tests and how JS testing tools work under the hood. You’ll learn from Lucas de Costa, a core contributor to popular JS testing libraries, as he shares a quality mindset for making testing decisions that deliver a real contribution to your business. You’ll benefit from informative explanations and diagrams, easily-transferable code samples, and useful tips on using the latest and most consolidated libraries and frameworks of the JavaScript ecosystem.<br/><br/><b>About the Technology</b><br/>Automated testing is essential to delivering good JavaScript applications every time. A complete testing strategy needs to cover functions in isolation, integration between different parts of your code, and correctness from the end user’s perspective. This book will teach you how to deliver reliable software quickly and confidently.<br/><br/><b>About the Book</b><br/><i>Testing JavaScript Applications</i> teaches you how to implement an automated testing plan for JavaScript-based web applications. It describes practical testing strategies, covers useful tools and libraries, and explains how to foster a culture of quality.  In this clearly-written, example-rich book, you’ll explore approaches for both backend and frontend applications and learn how to validate your software much more quickly and reliably.<br/><br/><b>What's Inside</b><br/><ul><li>Unit, end-to-end, and integration testing</li><li>Managing test cost and complexity</li><li>Practicing test-driven development</li><li>Dealing with external dependencies</li><li>Tools like Jest and Cypress</li></ul><br/><br/><b>About the Reader</b><br/>For junior JavaScript developers.<br/><br/><b>About the Author</b><br/><b>Lucas da Costa</b> is a core maintainer of Chai and Sinon.JS, two of the most popular testing tools in the JavaScript ecosystem, and contributed to numerous other open-source projects, including Jest.<br/><br/><b>Quotes</b><br/><i>If you thought you knew how to test JavaScript applications, this book will surprise you!</i><br/>- Lucian Enache, Glencore<br/><br/><i>This book is your key to taming the wild frontier of JavaScript testing.</i><br/>- Bryan Miller, Petrolitix<br/><br/><i>A detailed, insightful book on JavaScript testing for newcomers and experienced programmers.</i><br/>- Satej Sahu, Honeywell<br/><br/><i>An up-to-date, practical book that covers the ground level details of writing real-world tests and testing suites.</i><br/>- Raul Siles, DinoSec<br/><br/></b></span>",
+        "text/plain": "Automated testing will help you write high-quality software in less time, with more confidence, fewer bugs, and without constant manual oversight. Testing JavaScript Applications is a guide to building a comprehensive and reliable JS application testing suite, covering both how to write tests and how JS testing tools work under the hood. You’ll learn from Lucas de Costa, a core contributor to popular JS testing libraries, as he shares a quality mindset for making testing decisions that deliver a real contribution to your business. You’ll benefit from informative explanations and diagrams, easily-transferable code samples, and useful tips on using the latest and most consolidated libraries and frameworks of the JavaScript ecosystem. About the Technology Automated testing is essential to delivering good JavaScript applications every time. A complete testing strategy needs to cover functions in isolation, integration between different parts of your code, and correctness from the end user’s perspective. This book will teach you how to deliver reliable software quickly and confidently. About the Book Testing JavaScript Applications teaches you how to implement an automated testing plan for JavaScript-based web applications. It describes practical testing strategies, covers useful tools and libraries, and explains how to foster a culture of quality. In this clearly-written, example-rich book, you’ll explore approaches for both backend and frontend applications and learn how to validate your software much more quickly and reliably. What's Inside Unit, end-to-end, and integration testing Managing test cost and complexity Practicing test-driven development Dealing with external dependencies Tools like Jest and Cypress About the Reader For junior JavaScript developers. About the Author Lucas da Costa is a core maintainer of Chai and Sinon.JS, two of the most popular testing tools in the JavaScript ecosystem, and contributed to numerous other open-source projects, including Jest. Quotes If you thought you knew how to test JavaScript applications, this book will surprise you! - Lucian Enache, Glencore This book is your key to taming the wild frontier of JavaScript testing. - Bryan Miller, Petrolitix A detailed, insightful book on JavaScript testing for newcomers and experienced programmers. - Satej Sahu, Honeywell An up-to-date, practical book that covers the ground level details of writing real-world tests and testing suites. - Raul Siles, DinoSec"
+      },
+      "status": "Live",
+      "language": "en",
+      "publication_date": "2021-05-04",
+      "talent": {
+        "url": "/api/v1/talent/work/urn:orm:video:9781617297915VE",
+        "contributors": [
+          {
+            "name": "Lucas Fernandes da Costa",
+            "order": 0,
+            "contributor_type": "author"
+          }
+        ]
+      },
+      "display_format": "video",
+      "tags": [
+        "course"
+      ],
+      "topics": [
+        {
+          "id": "a0765028-6564-479c-ad97-0bbb7cd80a8f",
+          "name": "JavaScript",
+          "slug": "javascript",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development",
+            "javascript"
+          ],
+          "order": 0,
+          "tag_type": "primary"
+        }
+      ],
+      "publishers": [
+        {
+          "uuid": "ea8b4990-f3a7-4583-8839-606fdf1a8c20",
+          "name": "Manning Publications",
+          "url": "/api/v1/publishers/ea8b4990-f3a7-4583-8839-606fdf1a8c20/"
+        }
+      ],
+      "web_url": "/videos/-/9781617297915VE/",
+      "create_time": "2024-10-05T18:16:05.642429Z",
+      "work_last_modified": null,
+      "permissions": {
+        "e": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "p": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "v": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ]
+      },
+      "version": 1765828982483,
+      "content_levels": [
+        "intermediate"
+      ],
+      "duration": 47761,
+      "has_quiz_question_bank": false,
+      "marketing_type": {
+        "id": "00000000-0000-0000-0000-000000000009",
+        "name": "video"
+      },
+      "alternative_formats": [],
+      "has_code_explain": false,
+      "has_code_translate": false,
+      "has_badge": false,
+      "has_sandbox": false,
+      "academies": [],
+      "cross_edition_id": null,
+      "in_learning_plans": []
+    },
+    {
+      "identifier": "9781771374330",
+      "ourn": "urn:orm:video:9781771374330",
+      "popularity": 0.00010235,
+      "name": "Web App Optimization with JavaScript",
+      "type": "video",
+      "description": {
+        "text/html": "<span><span><p>In this Web App Optimization with JavaScript training course, expert author Alex Vanston teaches you how to improve the performance and user experience of web apps with JavaScript. This course is designed for users that are already familiar with creating web applications.<br/><br/>You will start by learning about raw speed, then jump into learning about browser flow, including understanding the paint cycle and DOM manipulation. From there, Alex will teach you user experience enhancements, such as preloading, incremental updates, and utilizing local storage. Finally, you will learn about mobile enhancements, including mobile debugging and benchmarking, conditional assets, and handling low quality networks.<br/><br/>Once you have completed this computer based training course, you will have learned how to improve the performance and user experience of your products.</p></span></span>",
+        "text/plain": "In this Web App Optimization with JavaScript training course, expert author Alex Vanston teaches you how to improve the performance and user experience of web apps with JavaScript. This course is designed for users that are already familiar with creating web applications. You will start by learning about raw speed, then jump into learning about browser flow, including understanding the paint cycle and DOM manipulation. From there, Alex will teach you user experience enhancements, such as preloading, incremental updates, and utilizing local storage. Finally, you will learn about mobile enhancements, including mobile debugging and benchmarking, conditional assets, and handling low quality networks. Once you have completed this computer based training course, you will have learned how to improve the performance and user experience of your products."
+      },
+      "status": "Live",
+      "language": "en",
+      "publication_date": "2015-08-31",
+      "talent": {
+        "url": "/api/v1/talent/work/urn:orm:video:9781771374330",
+        "contributors": [
+          {
+            "name": "Alex Vanston",
+            "order": 1,
+            "contributor_type": "author"
+          }
+        ]
+      },
+      "display_format": "video",
+      "tags": [
+        "structured-learning",
+        "course"
+      ],
+      "topics": [
+        {
+          "id": "a0765028-6564-479c-ad97-0bbb7cd80a8f",
+          "name": "JavaScript",
+          "slug": "javascript",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development",
+            "javascript"
+          ],
+          "order": 0,
+          "tag_type": "primary"
+        },
+        {
+          "id": "a25df34c-ecfa-4a90-9aa0-2f1f3801d9b6",
+          "name": "Web Performance",
+          "slug": "web-performance",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development",
+            "web-performance"
+          ],
+          "order": 1,
+          "tag_type": "secondary"
+        },
+        {
+          "id": "af66b49e-93c1-423b-ac06-be57ed9921fd",
+          "name": "Web Development",
+          "slug": "web-development",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development"
+          ],
+          "order": 2,
+          "tag_type": "indirect"
+        }
+      ],
+      "publishers": [
+        {
+          "uuid": "68787a8c-a8a0-4f3e-8410-b9f54911a3ec",
+          "name": "Infinite Skills",
+          "url": "/api/v1/publishers/68787a8c-a8a0-4f3e-8410-b9f54911a3ec/"
+        }
+      ],
+      "web_url": "/videos/-/9781771374330/",
+      "create_time": "2015-09-02T16:27:42.320766Z",
+      "work_last_modified": null,
+      "permissions": {
+        "e": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "p": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "v": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ]
+      },
+      "version": 1763601368717,
+      "content_levels": [
+        "intermediate"
+      ],
+      "duration": 6360,
+      "has_quiz_question_bank": false,
+      "marketing_type": {
+        "id": "00000000-0000-0000-0000-000000000014",
+        "name": "on-demand course"
+      },
+      "alternative_formats": [],
+      "has_code_explain": false,
+      "has_code_translate": false,
+      "has_badge": true,
+      "has_sandbox": false,
+      "academies": [],
+      "cross_edition_id": null,
+      "in_learning_plans": []
+    },
+    {
+      "identifier": "9781804611845",
+      "ourn": "urn:orm:video:9781804611845",
+      "popularity": 0.00010235,
+      "name": "Asynchronous Programming in JavaScript - Complete Course",
+      "type": "video",
+      "description": {
+        "text/html": "<span><p>In this 3 hr course, learn the core concepts of asynchronous programming in JavaScript, including event loops, callbacks, promises, and Async Await. Through practical examples and mini-projects, this course demystifies these complex topics to help you write efficient and modern JavaScript code.</p><p><b>What I will be able to do after this course</b></p><ul><li>Understand the event loop and its role in asynchronous programming</li><li>Learn how to work with callbacks and avoid callback hell</li><li>Master promises and their integration into JavaScript workflows</li><li>Use Async Await to simplify and modernize asynchronous code</li><li>Apply asynchronous programming concepts in hands-on real-world projects</li></ul><p><b>Course Instructor(s)</b></p><p>Aarthi Elumalai, your instructor, has extensive experience in JavaScript development and technical teaching. With a clear and friendly teaching style, Aarthi aims to break down complex programming concepts into digestible and engaging lessons, empowering students to apply new skills effectively.</p><p><b>Who is it for?</b></p><p>This course is ideal for JavaScript developers looking to deepen their skills, web developers aiming to enhance their technical resumes, and front-end developers working with frameworks like React or Angular seeking advanced insights. Prior JavaScript knowledge is recommended.</p></span>",
+        "text/plain": "In this 3 hr course, learn the core concepts of asynchronous programming in JavaScript, including event loops, callbacks, promises, and Async Await. Through practical examples and mini-projects, this course demystifies these complex topics to help you write efficient and modern JavaScript code. What I will be able to do after this course Understand the event loop and its role in asynchronous programming Learn how to work with callbacks and avoid callback hell Master promises and their integration into JavaScript workflows Use Async Await to simplify and modernize asynchronous code Apply asynchronous programming concepts in hands-on real-world projects Course Instructor(s) Aarthi Elumalai, your instructor, has extensive experience in JavaScript development and technical teaching. With a clear and friendly teaching style, Aarthi aims to break down complex programming concepts into digestible and engaging lessons, empowering students to apply new skills effectively. Who is it for? This course is ideal for JavaScript developers looking to deepen their skills, web developers aiming to enhance their technical resumes, and front-end developers working with frameworks like React or Angular seeking advanced insights. Prior JavaScript knowledge is recommended."
+      },
+      "status": "Live",
+      "language": "en",
+      "publication_date": "2022-09-29",
+      "talent": {
+        "url": "/api/v1/talent/work/urn:orm:video:9781804611845",
+        "contributors": [
+          {
+            "name": "Aarthi Elumalai",
+            "order": 0,
+            "contributor_type": "author"
+          }
+        ]
+      },
+      "display_format": "video",
+      "tags": [
+        "structured-learning",
+        "course"
+      ],
+      "topics": [
+        {
+          "id": "a0765028-6564-479c-ad97-0bbb7cd80a8f",
+          "name": "JavaScript",
+          "slug": "javascript",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development",
+            "javascript"
+          ],
+          "order": 0,
+          "tag_type": "primary"
+        },
+        {
+          "id": "af66b49e-93c1-423b-ac06-be57ed9921fd",
+          "name": "Web Development",
+          "slug": "web-development",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development"
+          ],
+          "order": 1,
+          "tag_type": "indirect"
+        }
+      ],
+      "publishers": [
+        {
+          "uuid": "dd0773f2-2d09-4827-9191-33477b14398c",
+          "name": "Packt Publishing",
+          "url": "/api/v1/publishers/dd0773f2-2d09-4827-9191-33477b14398c/"
+        }
+      ],
+      "web_url": "/videos/-/9781804611845/",
+      "create_time": "2022-10-04T15:43:03.901476Z",
+      "work_last_modified": null,
+      "permissions": {
+        "e": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "p": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ],
+        "v": [
+          {
+            "perms": [
+              "video"
+            ]
+          }
+        ]
+      },
+      "version": 1763593938699,
+      "content_levels": [
+        "intermediate"
+      ],
+      "duration": 12226,
+      "has_quiz_question_bank": false,
+      "marketing_type": {
+        "id": "00000000-0000-0000-0000-000000000014",
+        "name": "on-demand course"
+      },
+      "alternative_formats": [],
+      "has_code_explain": false,
+      "has_code_translate": false,
+      "has_badge": true,
+      "has_sandbox": false,
+      "academies": [],
+      "cross_edition_id": null,
+      "in_learning_plans": []
+    },
+    {
+      "identifier": "0636920201748",
+      "ourn": "urn:orm:live-event-series:0636920201748",
+      "popularity": 0,
+      "name": "JavaScript the Hard Parts: Closures",
+      "type": "live-event-series",
+      "description": {
+        "text/html": "<span><p>In JavaScript the Hard Parts you balance developing ‘under-the-hood' mental models of how the challenging concept works with diving into coding challenges – giving you the capacity to effortlessly navigate through any new problems.</p>\n<p>We will cover the core functional programming concept of closure – probably the most misunderstood feature of JavaScript yet one of the most powerful. By introducing the execution context and variable environment, we'll be able to understand classic closure functions like once, memoize and even password-protected functions.</p>\n<p>We’ll also be in a position to take advantage of the new ES6 feature including iterators and to better understand how state persists in our asynchronous code</p>\n<p>We will also be better able to understand one of the most popular JavaScript design patterns - the module pattern</p>\n</span>",
+        "text/plain": "In JavaScript the Hard Parts you balance developing ‘under-the-hood' mental models of how the challenging concept works with diving into coding challenges – giving you the capacity to effortlessly navigate through any new problems. \n We will cover the core functional programming concept of closure – probably the most misunderstood feature of JavaScript yet one of the most powerful. By introducing the execution context and variable environment, we'll be able to understand classic closure functions like once, memoize and even password-protected functions. \n We’ll also be in a position to take advantage of the new ES6 feature including iterators and to better understand how state persists in our asynchronous code \n We will also be better able to understand one of the most popular JavaScript design patterns - the module pattern"
+      },
+      "status": "Live",
+      "language": "en",
+      "publication_date": "2018-07-20",
+      "talent": {
+        "url": "/api/v1/talent/work/urn:orm:live-event-series:0636920201748",
+        "contributors": [
+          {
+            "name": "William Sentance",
+            "order": 2,
+            "contributor_type": "presenter"
+          }
+        ]
+      },
+      "display_format": "live-event-series",
+      "tags": [
+        "structured-learning"
+      ],
+      "topics": [
+        {
+          "id": "a0765028-6564-479c-ad97-0bbb7cd80a8f",
+          "name": "JavaScript",
+          "slug": "javascript",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development",
+            "javascript"
+          ],
+          "order": 0,
+          "tag_type": "primary"
+        },
+        {
+          "id": "af66b49e-93c1-423b-ac06-be57ed9921fd",
+          "name": "Web Development",
+          "slug": "web-development",
+          "topic_hierarchy": [
+            "web-mobile",
+            "web-development"
+          ],
+          "order": 1,
+          "tag_type": "indirect"
+        }
+      ],
+      "publishers": [
+        {
+          "uuid": "db6675ca-7122-4551-bff6-0a90688aa5ca",
+          "name": "Pearson",
+          "url": "/api/v1/publishers/db6675ca-7122-4551-bff6-0a90688aa5ca/"
+        }
+      ],
+      "web_url": "/live-events/-/0636920201748/",
+      "create_time": "2022-02-11T00:24:51.337950Z",
+      "work_last_modified": null,
+      "permissions": {
+        "p": [
+          {
+            "accts": [
+              null
+            ],
+            "perms": [
+              "lvtrg"
+            ]
+          }
+        ],
+        "v": [
+          {
+            "accts": [
+              null
+            ],
+            "perms": [
+              "lvtrg"
+            ]
+          }
+        ]
+      },
+      "version": 1757470986721,
+      "content_levels": [
+        "advanced"
+      ],
+      "duration": null,
+      "has_quiz_question_bank": false,
+      "marketing_type": {
+        "id": "00000000-0000-0000-0000-000000000013",
+        "name": "live course"
+      },
+      "alternative_formats": [],
+      "has_code_explain": false,
+      "has_code_translate": false,
+      "has_badge": true,
+      "has_sandbox": false,
+      "academies": [],
+      "cross_edition_id": null,
+      "in_learning_plans": []
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+adapting your logic to fit in the constraints of your particular use-case
+
+Removing branches from your code can be incredibly efficient for performance.

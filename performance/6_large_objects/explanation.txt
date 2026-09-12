@@ -1,0 +1,14 @@
+Engines use shapes to optimize objects. 
+When the shape grows too large, the engine has no choice but to use a regular hashmap (like a Map object). 
+Hashmaps are prone to this because their data is usually randomly & evenly distributed over the memory region they occupy.
+
+// 1. [] access
+Object.keys(byId).forEach(id => { _ += byId[id].id })
+
+// 2. direct access
+Object.values(byId).forEach(user => { _ += user.id })
+
+!IMPORTANT
+Avoid having to frequently index into large objects. 
+Prefer turning the object into an array beforehand. 
+Organizing your data to have the ID on the model can help, as you can use Object.values() and not have to refer to the key map to get the ID.

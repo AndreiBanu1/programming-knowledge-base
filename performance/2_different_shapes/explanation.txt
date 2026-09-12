@@ -1,0 +1,7 @@
+Javascript engines try to optimize code by assuming that objects have a specific shape, 
+and that functions will receive objects of the same shape. 
+This allows them to store the keys of the shape once for all objects of that shape, 
+and the values in a separate flat array.
+
+! You really want to stay monomorphic, because the slowdown is drastic:
+

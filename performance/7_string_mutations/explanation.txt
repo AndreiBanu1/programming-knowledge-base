@@ -1,0 +1,9 @@
+First, strings concatenated with + don’t create a copy of the two input strings. 
+The operation creates a pointer to each substring.
+
+Second, string slices also don’t need to create copies: they can simply point to a range in another string.
+
+! Once you need to start mutating those bytes, that’s the moment you start paying copy costs
+
+Try to avoid mutation for as long as possible. 
+This includes methods such as .trim(), .replace(), etc. Consider how you can avoid those methods.

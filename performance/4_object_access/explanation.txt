@@ -1,0 +1,8 @@
+Having nested deep objects cause slow performance.
+e.g.: get(i).state.center.point.x
+
+We want to have simple more direct objects that ofer fast access to their properties.
+    obj.x
+    obj.y
+
+Always prefer direct access instead of proxy or nested access.
