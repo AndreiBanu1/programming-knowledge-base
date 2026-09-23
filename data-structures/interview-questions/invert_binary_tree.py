@@ -10,7 +10,7 @@ class TreeNode:
         self.right = right
 
 
-def invertBinaryTreeRecursive(root: TreeNode | None) -> TreeNode | None:
+def invert_binary_tree_recursive(root: TreeNode | None) -> TreeNode | None:
     if root is None:
         return None
 
@@ -18,12 +18,12 @@ def invertBinaryTreeRecursive(root: TreeNode | None) -> TreeNode | None:
     root.left = root.right
     root.right = temp
 
-    invertBinaryTreeRecursive(root.left)
-    invertBinaryTreeRecursive(root.right)
+    invert_binary_tree_recursive(root.left)
+    invert_binary_tree_recursive(root.right)
     return root
 
 
-def invertBinaryTree(root: TreeNode | None) -> TreeNode | None:
+def invert_binary_tree(root: TreeNode | None) -> TreeNode | None:
     if root is None:
         return None
 
@@ -45,6 +45,6 @@ def invertBinaryTree(root: TreeNode | None) -> TreeNode | None:
 
 
 print(
-    invertBinaryTree(TreeNode(4, TreeNode(2), TreeNode(7))),
+    invert_binary_tree(TreeNode(4, TreeNode(2), TreeNode(7))),
 )
-print(invertBinaryTreeRecursive(TreeNode(1, TreeNode(2), None)))
+print(invert_binary_tree_recursive(TreeNode(1, TreeNode(2), None)))

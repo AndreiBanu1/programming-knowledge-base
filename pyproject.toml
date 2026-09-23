@@ -1,0 +1,35 @@
+[project]
+name = "programming-knowledge-base"
+version = "1.0.0"
+description = "Python half of a personal TypeScript & Python knowledge base"
+requires-python = ">=3.12"
+
+# Study material, not a distributable package — don't try to build/install it.
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = ["pytest>=8.3", "ruff>=0.14"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["node_modules"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "I",   # isort — import order
+    "N",   # pep8-naming — snake_case functions/vars, PascalCase classes
+    "UP",  # pyupgrade — modern syntax for the target version
+    "B",   # flake8-bugbear — likely bugs
+    "SIM", # flake8-simplify
+]
+
+[tool.pytest.ini_options]
+# Only test_*.py / *_test.py are collected, so the study scripts (which print at
+# import time) are never executed by the test run.
+testpaths = ["algorithms", "data-structures", "notes"]
+norecursedirs = ["node_modules", ".venv", ".git", "scratch"]
+addopts = ["--quiet"]

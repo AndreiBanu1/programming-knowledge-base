@@ -14,7 +14,7 @@ def is_valid_parentheses(s: str) -> bool:
         else:
             stack.append(char)
     
-    return len(stack) == 0;
+    return len(stack) == 0
 
 print(is_valid_parentheses("()[]{}")) # true
 print(is_valid_parentheses("(]")) # false

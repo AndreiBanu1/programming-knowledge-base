@@ -8,6 +8,15 @@ build/
 
 # Test / coverage
 coverage/
+.pytest_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+.mypy_cache/
 
 # Logs
 *.log

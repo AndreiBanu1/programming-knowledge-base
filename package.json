@@ -1,14 +1,19 @@
 {
-  "name": "ts-knowledge-base",
+  "name": "programming-knowledge-base",
   "version": "1.0.0",
-  "description": "Personal TypeScript/JavaScript knowledge base: Total TypeScript book exercises, worked-example modules, algorithms, and performance notes",
+  "description": "Personal TypeScript & Python knowledge base: book exercises, worked examples, algorithms, data structures, and performance notes",
   "type": "module",
   "private": true,
   "scripts": {
     "test": "vitest",
     "test:run": "vitest run",
     "test:ui": "vitest --ui",
-    "test:types": "tsc --noEmit"
+    "test:types": "tsc --noEmit",
+    "test:py": "uv run pytest",
+    "lint:py": "uv run ruff check .",
+    "lint:py:fix": "uv run ruff check --fix .",
+    "format:py": "uv run ruff format .",
+    "check": "npm run test:types && npm run test:run && npm run lint:py && npm run test:py"
   },
   "devDependencies": {
     "@vitest/ui": "^4.1.5",
