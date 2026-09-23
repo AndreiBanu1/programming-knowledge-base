@@ -16,5 +16,8 @@
     "types": ["vitest/globals"],
   },
   "include": ["**/*.ts"],
-  "exclude": ["node_modules", "algorithms", "performance", "miscellaneous", "design-patterns"]
+  // `algorithms/` is the only folder still outside the typed surface: it has 114
+  // pre-existing `noUncheckedIndexedAccess` errors (arr[i] is `T | undefined`).
+  // Drop this line once those are fixed — nothing else in the repo needs it.
+  "exclude": ["node_modules", "algorithms"]
 }

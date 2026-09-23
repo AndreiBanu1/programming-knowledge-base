@@ -2,23 +2,6 @@
 // db.ts
 class DatabaseConnection {
     constructor() {
-        console.log("db created")
-    }
-}
-
-let db: DatabaseConnection | null = null
-
-export function getDb() {
-        if (!db) {
-            db = new DatabaseConnection();
-        } else {
-            return;
-        }
-    }
-}
-
-class DatabaseConnection {
-    constructor() {
         console.log("DB created");
     }
 }
@@ -35,18 +18,18 @@ export function getDb() {
 
 // Example with class approach as Java
 class DatabaseConnectionSingleton {
-    private static instance: DatabaseConnection;
+    private static instance: DatabaseConnectionSingleton;
 
     private constructor() {
         console.log("Database connection created");
     }
 
     // Global access point
-    public static getInstance(): DatabaseConnection {
-        if (!DatabaseConnection.instance) {
-            DatabaseConnection.instance = new DatabaseConnection();
+    public static getInstance(): DatabaseConnectionSingleton {
+        if (!DatabaseConnectionSingleton.instance) {
+            DatabaseConnectionSingleton.instance = new DatabaseConnectionSingleton();
         }
-        return DatabaseConnection.instance;
+        return DatabaseConnectionSingleton.instance;
     }
 
     public query(sql: string) {

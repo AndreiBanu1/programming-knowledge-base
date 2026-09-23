@@ -8,7 +8,7 @@ import {
   memoizeByObject,
   dedupeBy,
   groupBy,
-} from '../BuiltIns'
+} from '../built-ins'
 
 describe('exercise 1: safeCount', () => {
   it('counts repeated keys', () => {

@@ -1,4 +1,4 @@
-import { TreeNode } from '../../data-structures/Trees'
+import { TreeNode } from '../../data-structures/trees'
 // we use Queue - FIFO
 // O(n)
 
