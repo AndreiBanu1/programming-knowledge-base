@@ -78,8 +78,8 @@ function walk(
     }
   }
   // post
-  path.pop();
-  return false;
+  path.pop()
+  return false
 }
 
 function solve(maze: string[], wall: string, start: Point, end: Point): Point[] {
