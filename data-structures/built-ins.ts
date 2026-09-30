@@ -223,7 +223,7 @@ export function memoizeByObject<A extends object, R>(fn: (arg: A) => R): (arg: A
 /**
  * Map and Set compare keys by SameValueZero — reference equality for objects,
  * `===` for primitives, with two exceptions: NaN equals itself, and +0 === -0.
- * See ../algorithms/notes/equality-reference.ts.
+ * See ../notes/typescript/equality-reference.ts.
  */
 
 // Two structurally identical objects are two different keys

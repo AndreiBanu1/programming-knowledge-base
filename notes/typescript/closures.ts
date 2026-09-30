@@ -10,7 +10,7 @@
  *   A function looks up a variable where it was WRITTEN (defined),
  *   not where it was CALLED.
  *
- * Runnable:  npx tsx algorithms/notes/closures.ts
+ * Runnable:  node notes/typescript/closures.ts
  */
 
 // ---------------------------------------------------------------------------

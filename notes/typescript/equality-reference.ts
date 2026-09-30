@@ -11,7 +11,7 @@
  * To ask "same CONTENTS?" about a box, you must compare it yourself:
  *   -> walk one and check the other.
  *
- * This file is runnable:  npx tsx algorithms/notes/equality-reference.ts
+ * This file is runnable:  node notes/typescript/equality-reference.ts
  */
 
 const line = (label: string, val: unknown) => console.log(label.padEnd(50), val);

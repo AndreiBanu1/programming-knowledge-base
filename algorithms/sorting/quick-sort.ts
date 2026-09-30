@@ -2,32 +2,29 @@
 function qs(arr: number[], lo: number, hi: number): void {
   if (lo >= hi) return
 
-  const pivot = partition(arr, lo, hi)
-  qs(arr, lo, pivot)
-  qs(arr, pivot + 1, hi)
+  const pivotIdx = partition(arr, lo, hi)
+  qs(arr, lo, pivotIdx - 1)
+  qs(arr, pivotIdx + 1, hi)
 }
 
 function partition(arr: number[], lo: number, hi: number): number {
   const pivot = arr[hi]
-  let left = lo + 1
-  let right = hi
 
-  while (left < right) {
-    while (left <= right && arr[left] <= pivot) left++
-    while (right >= left && arr[right] > pivot) right--
+  let idx = lo - 1
 
-    if (left < right) {
-      swap(arr, left, right)
+  for (let i = lo; i < hi; i++) {
+    if (arr[i] <= pivot) {
+      idx++
+      const tmp = arr[i]
+      arr[i] = arr[idx]
+      arr[idx] = tmp
     }
   }
-  swap(arr, lo, right)
-  return right
-}
+  idx++
+  arr[hi] = arr[idx]
+  arr[idx] = pivot
 
-function swap(arr: number[], i: number, j: number): void {
-  const tmp = arr[i]
-  arr[j] = arr[i]
-  arr[i] = tmp
+  return idx
 }
 
 function quick_sort(arr: number[]): void {

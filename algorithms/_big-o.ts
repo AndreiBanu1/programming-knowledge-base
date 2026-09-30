@@ -10,7 +10,7 @@
  *   TIME  — how many steps as n grows
  *   SPACE — how much EXTRA memory as n grows (not counting the input itself)
  *
- * Runnable:  npx tsx algorithms/notes/big-o.ts
+ * Runnable:  node algorithms/_big-o.ts
  */
 
 // ===========================================================================

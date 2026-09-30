@@ -30,7 +30,7 @@ language-bound — a TypeScript book, V8-specific performance quirks.
 | [`design-patterns/`](design-patterns) | Design pattern examples (e.g. Singleton). |
 | [`total-typescript-book/`](total-typescript-book) | Exercises from the *Total TypeScript* book (Matt Pocock & Taylor Bell). Logic in `*.exercises.ts`, Vitest tests in `*.test.ts`. |
 | [`performance/`](performance) | Numbered `bad.js` / `good.js` pairs with `explanation.txt` notes on JS perf patterns, in reading order. |
-| [`notes/`](notes) | Cross-cutting reference material: LeetCode cheatsheets, a Python crash course, and `javascript/` for language semantics (closures, equality & references). |
+| [`notes/`](notes) | Cross-cutting reference material: LeetCode cheatsheets, a Python crash course, and `typescript/` for language semantics — closures, equality & references, deep vs shallow copy, immutability (`readonly`, `as const`, `DeepReadonly`, `Object.freeze`). Each file is runnable with `node notes/typescript/<file>.ts`. |
 | [`scratch/`](scratch) | Loose practice & works-in-progress — common JS patterns, misc. exercises, a JSON parser. Excluded from the test run. |
 
 ## Conventions
