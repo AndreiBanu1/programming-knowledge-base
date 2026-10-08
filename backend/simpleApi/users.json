@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Andrei Popescu",
+    "email": "andrei.popescu@example.com",
+    "age": 28,
+    "role": "developer",
+    "department": "Engineering",
+    "active": true,
+    "skills": ["TypeScript", "Node.js", "Playwright"],
+    "address": {
+      "city": "Bucharest",
+      "country": "Romania"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Maria Ionescu",
+    "email": "maria.ionescu@example.com",
+    "age": 31,
+    "role": "qa-engineer",
+    "department": "Engineering",
+    "active": true,
+    "skills": ["Java", "Selenium", "API Testing"],
+    "address": {
+      "city": "Cluj-Napoca",
+      "country": "Romania"
+    }
+  },
+  {
+    "id": 3,
+    "name": "David Miller",
+    "email": "david.miller@example.com",
+    "age": 35,
+    "role": "backend-developer",
+    "department": "Engineering",
+    "active": true,
+    "skills": ["Java", "Spring Boot", "PostgreSQL"],
+    "address": {
+      "city": "London",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sofia Garcia",
+    "email": "sofia.garcia@example.com",
+    "age": 26,
+    "role": "frontend-developer",
+    "department": "Engineering",
+    "active": true,
+    "skills": ["React", "TypeScript", "CSS"],
+    "address": {
+      "city": "Madrid",
+      "country": "Spain"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "age": 42,
+    "role": "engineering-manager",
+    "department": "Engineering",
+    "active": true,
+    "skills": ["Leadership", "Java", "Architecture"],
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Elena Rossi",
+    "email": "elena.rossi@example.com",
+    "age": 29,
+    "role": "qa-engineer",
+    "department": "Quality",
+    "active": true,
+    "skills": ["Playwright", "TypeScript", "CI/CD"],
+    "address": {
+      "city": "Milan",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": 7,
+    "name": "James Wilson",
+    "email": "james.wilson@example.com",
+    "age": 33,
+    "role": "devops-engineer",
+    "department": "Platform",
+    "active": true,
+    "skills": ["Docker", "Kubernetes", "AWS"],
+    "address": {
+      "city": "Manchester",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Ana Martinez",
+    "email": "ana.martinez@example.com",
+    "age": 24,
+    "role": "junior-developer",
+    "department": "Engineering",
+    "active": true,
+    "skills": ["JavaScript", "Git", "HTML"],
+    "address": {
+      "city": "Barcelona",
+      "country": "Spain"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Daniel Schmidt",
+    "email": "daniel.schmidt@example.com",
+    "age": 38,
+    "role": "backend-developer",
+    "department": "Engineering",
+    "active": false,
+    "skills": ["Go", "PostgreSQL", "Docker"],
+    "address": {
+      "city": "Munich",
+      "country": "Germany"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Emma Johnson",
+    "email": "emma.johnson@example.com",
+    "age": 30,
+    "role": "product-manager",
+    "department": "Product",
+    "active": true,
+    "skills": ["Product Management", "Agile", "SQL"],
+    "address": {
+      "city": "Dublin",
+      "country": "Ireland"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Lucas Martin",
+    "email": "lucas.martin@example.com",
+    "age": 27,
+    "role": "frontend-developer",
+    "department": "Engineering",
+    "active": true,
+    "skills": ["Vue", "JavaScript", "TypeScript"],
+    "address": {
+      "city": "Paris",
+      "country": "France"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Olivia Taylor",
+    "email": "olivia.taylor@example.com",
+    "age": 36,
+    "role": "data-engineer",
+    "department": "Data",
+    "active": true,
+    "skills": ["Python", "SQL", "Apache Spark"],
+    "address": {
+      "city": "Amsterdam",
+      "country": "Netherlands"
+    }
+  },
+  {
+    "id": 13,
+    "name": "George Evans",
+    "email": "george.evans@example.com",
+    "age": 41,
+    "role": "solution-architect",
+    "department": "Architecture",
+    "active": true,
+    "skills": ["Java", "AWS", "System Design"],
+    "address": {
+      "city": "Birmingham",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Isabella Conti",
+    "email": "isabella.conti@example.com",
+    "age": 25,
+    "role": "qa-engineer",
+    "department": "Quality",
+    "active": false,
+    "skills": ["Cypress", "JavaScript", "API Testing"],
+    "address": {
+      "city": "Rome",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Noah Anderson",
+    "email": "noah.anderson@example.com",
+    "age": 32,
+    "role": "software-engineer",
+    "department": "Engineering",
+    "active": true,
+    "skills": ["C#", ".NET", "Azure"],
+    "address": {
+      "city": "Toronto",
+      "country": "Canada"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Charlotte Davis",
+    "email": "charlotte.davis@example.com",
+    "age": 29,
+    "role": "ux-designer",
+    "department": "Design",
+    "active": true,
+    "skills": ["Figma", "UX Research", "Prototyping"],
+    "address": {
+      "city": "Copenhagen",
+      "country": "Denmark"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Ethan Moore",
+    "email": "ethan.moore@example.com",
+    "age": 34,
+    "role": "security-engineer",
+    "department": "Security",
+    "active": true,
+    "skills": ["Cybersecurity", "Linux", "Python"],
+    "address": {
+      "city": "Stockholm",
+      "country": "Sweden"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Amelia Thomas",
+    "email": "amelia.thomas@example.com",
+    "age": 28,
+    "role": "software-engineer",
+    "department": "Engineering",
+    "active": true,
+    "skills": ["TypeScript", "Node.js", "PostgreSQL"],
+    "address": {
+      "city": "Lisbon",
+      "country": "Portugal"
+    }
+  },
+  {
+    "id": 19,
+    "name": "William Jackson",
+    "email": "william.jackson@example.com",
+    "age": 45,
+    "role": "engineering-manager",
+    "department": "Engineering",
+    "active": false,
+    "skills": ["Leadership", "System Design", "Cloud"],
+    "address": {
+      "city": "Boston",
+      "country": "United States"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Mia White",
+    "email": "mia.white@example.com",
+    "age": 23,
+    "role": "junior-qa-engineer",
+    "department": "Quality",
+    "active": true,
+    "skills": ["Playwright", "TypeScript", "Git"],
+    "address": {
+      "city": "Bucharest",
+      "country": "Romania"
+    }
+  }
+]
