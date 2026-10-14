@@ -13,12 +13,16 @@
     "lint:py": "uv run ruff check .",
     "lint:py:fix": "uv run ruff check --fix .",
     "format:py": "uv run ruff format .",
-    "check": "npm run test:types && npm run test:run && npm run lint:py && npm run test:py"
+    "check": "npm run test:types && npm run test:run && npm run lint:py && npm run test:py",
+    "dev:fastapi": "uv run fastapi dev backend/simpleFastAPI/main.py",
+    "dev:jsapi": "cd backend/simpleJSApi && tsx watch server.ts"
   },
   "devDependencies": {
+    "@types/node": "^25.9.9",
     "@vitest/ui": "^4.1.5",
     "happy-dom": "^20.10.6",
-    "typescript": "^6.0.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
     "vitest": "^4.1.5"
   }
 }

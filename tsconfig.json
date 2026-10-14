@@ -13,7 +13,7 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "noEmit": true,
-    "types": ["vitest/globals"],
+    "types": ["vitest/globals", "node"],
   },
   "include": ["**/*.ts"],
   // `algorithms/` is the only folder still outside the typed surface: it has 114

@@ -7,9 +7,11 @@ requires-python = ">=3.12"
 # Study material, not a distributable package — don't try to build/install it.
 [tool.uv]
 package = false
+default-groups = ["dev", "backend"]
 
 [dependency-groups]
 dev = ["pytest>=8.3", "ruff>=0.14"]
+backend = ["fastapi[standard]>=0.143", "scalar-fastapi>=1.9"]
 
 [tool.ruff]
 line-length = 100

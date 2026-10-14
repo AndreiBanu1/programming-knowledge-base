@@ -54,8 +54,8 @@ Tooling is shared at the repo root — one `package.json`, `tsconfig.json`,
 | Tests | Vitest (`*.{test,spec}.ts`) | pytest (`test_*.py`) |
 
 ```bash
-npm install              # one time — TypeScript side
-uv sync                  # one time — Python side (installs ruff + pytest)
+npm install              # one time — TypeScript side (one node_modules for the whole repo)
+uv sync                  # one time — Python side (one .venv: pytest, ruff, fastapi, ...)
 
 npm test                 # Vitest in watch mode
 npm run test:run         # Vitest once
@@ -68,7 +68,14 @@ npm run lint:py:fix      # ruff check --fix
 npm run format:py        # ruff format
 
 npm run check            # all four, in sequence
+
+npm run dev:fastapi      # backend/simpleFastAPI (http://127.0.0.1:8000)
+npm run dev:jsapi        # backend/simpleJSApi   (http://127.0.0.1:3000)
 ```
+
+**Dependencies live only at the repo root** — no per-folder `.venv` or
+`package.json`. Python: add with `uv add <pkg>` (or `uv add --group backend <pkg>`
+for API deps). JS/TS: `npm i -D <pkg>`. Details in [`DEPENDENCIES.md`](DEPENDENCIES.md).
 
 Scope a run to one folder by passing a path:
 
