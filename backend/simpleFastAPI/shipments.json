@@ -1,0 +1,92 @@
+[
+  {
+    "id": "SHP-2026-0001",
+    "weight": 2.45,
+    "content": "Wireless keyboard and mouse",
+    "status": "delivered"
+  },
+  {
+    "id": "SHP-2026-0002",
+    "weight": 18.7,
+    "content": "Office chair",
+    "status": "in_transit"
+  },
+  {
+    "id": "SHP-2026-0003",
+    "weight": 0.85,
+    "content": "USB-C charging cables",
+    "status": "delivered"
+  },
+  {
+    "id": "SHP-2026-0004",
+    "weight": 12.3,
+    "content": "Coffee machine",
+    "status": "processing"
+  },
+  {
+    "id": "SHP-2026-0005",
+    "weight": 5.6,
+    "content": "Running shoes",
+    "status": "in_transit"
+  },
+  {
+    "id": "SHP-2026-0006",
+    "weight": 24.9,
+    "content": "Computer monitor, 27 inch",
+    "status": "pending"
+  },
+  {
+    "id": "SHP-2026-0007",
+    "weight": 1.2,
+    "content": "Paperback books",
+    "status": "delivered"
+  },
+  {
+    "id": "SHP-2026-0008",
+    "weight": 9.35,
+    "content": "Kitchen cookware set",
+    "status": "in_transit"
+  },
+  {
+    "id": "SHP-2026-0009",
+    "weight": 32.8,
+    "content": "Flat-pack furniture",
+    "status": "processing"
+  },
+  {
+    "id": "SHP-2026-0010",
+    "weight": 0.45,
+    "content": "Smartphone protective case",
+    "status": "delivered"
+  },
+  {
+    "id": "SHP-2026-0011",
+    "weight": 7.75,
+    "content": "Pet food and accessories",
+    "status": "in_transit"
+  },
+  {
+    "id": "SHP-2026-0012",
+    "weight": 15.2,
+    "content": "Home office printer",
+    "status": "pending"
+  },
+  {
+    "id": "SHP-2026-0013",
+    "weight": 3.4,
+    "content": "Skincare products",
+    "status": "delivered"
+  },
+  {
+    "id": "SHP-2026-0014",
+    "weight": 21.6,
+    "content": "Car maintenance tools",
+    "status": "in_transit"
+  },
+  {
+    "id": "SHP-2026-0015",
+    "weight": 4.15,
+    "content": "Baby clothes and blankets",
+    "status": "processing"
+  }
+]

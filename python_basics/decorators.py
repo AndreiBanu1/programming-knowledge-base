@@ -1,5 +1,5 @@
 from collections.abc import Callable
-from typing import Any
+from typing import Any, overload, override
 
 
 def custom_fence(fence: str = "+"):
@@ -53,3 +53,48 @@ while request != "quit":
         print(response, end="\n\n")
     else:
         print("Not found")
+
+
+def changecase(func):
+    def myinner():
+        return func().upper()
+
+    return myinner
+
+
+@changecase
+def logging():
+    return "logging"
+
+
+print(logging())
+
+
+class Person:
+    @overload
+    def greet(self, name: str) -> None:
+        pass
+
+    @overload
+    def greet(self, name: str, age: int) -> None:
+        pass
+
+    def greet(self, *args, **kwargs):
+        if args:
+            print("Positional:", args)
+
+        if kwargs:
+            print("Keyword:", kwargs)
+
+
+person = Person()
+
+person.greet("Andrei", 25)
+person.greet(name="Andrei", age=25)
+person.greet("Andrei", age=25)
+
+
+class Employee(Person):
+    @override
+    def greet(self, name: str, age: int | None = None):
+        print(f"Hello from Employee, {name}!")
