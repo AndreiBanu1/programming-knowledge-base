@@ -1,0 +1,12 @@
+{
+  // NestJS relies on decorators + emitted design-time metadata for dependency injection
+  // and ValidationPipe. The root tsconfig (used by the rest of the repo) doesn't enable
+  // them, so this folder extends it and turns them on.
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}

@@ -62,14 +62,29 @@ npm uninstall <pkg>
 Key tools: `typescript` (7.x), `vitest`, `tsx` (runs `.ts` directly),
 `@types/node` (kept in line with the installed Node major).
 
-The root `tsconfig.json` type-checks every `.ts` file (except `algorithms/` and
-`node_modules/`), including the backend projects.
+The root `tsconfig.json` type-checks every `.ts` file (except `algorithms/`,
+`backend/simpleNestJSApi/` and `node_modules/`), including the other backend projects.
+`backend/simpleNestJSApi` has its own small `tsconfig.json` (extends the root one) because
+NestJS needs decorator metadata; check it with `npm run test:types:nest`.
+
+### NestJS (`backend/simpleNestJSApi`)
+
+NestJS needs `emitDecoratorMetadata`, which `tsx` and Vitest's default transformer
+(esbuild) do not support, so this project is compiled with **SWC** instead:
+
+- `npm run dev:nestjs` starts it through a tiny Node loader (`register.mjs` /
+  `ts-loader.mjs` in that folder) that compiles `.ts` with `@swc/core`.
+- `vitest.config.ts` uses `unplugin-swc`, configured from the Nest tsconfig.
+- `package.json` has an `overrides` entry so `@nestjs/swagger` (whose optional
+  `typescript` peer stops at 6.x) installs against the repo's TypeScript 7. Without it a
+  plain `npm install` fails with `ERESOLVE`. Remove it once Nest supports TS 7.
 
 ## Running the backend projects
 
 ```bash
 npm run dev:fastapi   # backend/simpleFastAPI -> http://127.0.0.1:8000 (docs at /docs, /scalar)
 npm run dev:jsapi     # backend/simpleJSApi   -> http://127.0.0.1:3000
+npm run dev:nestjs    # backend/simpleNestJSApi -> http://localhost:3001 (docs at /scalar; PORT=... to change)
 ```
 
 `dev:jsapi` changes into `backend/simpleJSApi` first because `server.ts` reads
@@ -80,7 +95,8 @@ npm run dev:jsapi     # backend/simpleJSApi   -> http://127.0.0.1:3000
 1. Create a folder under `backend/` (or anywhere) with your source files.
 2. Add its dependencies to the **root** manifests (`uv add ...` / `npm i -D ...`).
 3. Optionally add a `dev:<name>` script to the root `package.json`.
-4. Do **not** create a new `.venv`, `package.json` or `tsconfig.json` there.
+4. Do **not** create a new `.venv` or `package.json` there. A `tsconfig.json` is only
+   allowed when the project needs compiler options the root one lacks (see NestJS above).
 
 If a sub-project ever needs a conflicting dependency version, or must be
 extractable on its own, switch to
@@ -91,7 +107,7 @@ extractable on its own, switch to
 ## Checks
 
 ```bash
-npm run check   # tsc --noEmit, vitest, ruff, pytest
+npm run check   # tsc --noEmit (root + nest), vitest, ruff, pytest
 ```
 
 `npm run test:run` is expected to have 31 failing tests (unsolved book

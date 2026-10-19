@@ -71,6 +71,7 @@ npm run check            # all four, in sequence
 
 npm run dev:fastapi      # backend/simpleFastAPI (http://127.0.0.1:8000)
 npm run dev:jsapi        # backend/simpleJSApi   (http://127.0.0.1:3000)
+npm run dev:nestjs       # backend/simpleNestJSApi (http://localhost:3001, docs at /scalar)
 ```
 
 **Dependencies live only at the repo root** — no per-folder `.venv` or
