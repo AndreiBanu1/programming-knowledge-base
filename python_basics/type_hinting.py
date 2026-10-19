@@ -37,3 +37,23 @@ class City:
 
 def decorator(func: Callable[[Any], None]):
     pass
+
+
+def get_name(first_name: str, last_name: str, age: int) -> str:
+    return "My name is " + first_name + " " + last_name + " and my age is " + str(age)
+
+
+print(get_name("John", "Doe", 44))
+
+
+def process_data(data: list[str]) -> list[str]:
+    result = []
+
+    for index, item in enumerate(data, start=1):
+        result.append(f"{index}. {item}")
+
+    return result
+    # return [f"{index}. {item}" for index, item in enumerate(data, start=1)]
+
+
+print(process_data(["apple", "banana", "cherry"]))
