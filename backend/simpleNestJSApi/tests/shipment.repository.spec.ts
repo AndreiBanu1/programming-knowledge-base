@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { ShipmentNotFoundError } from '../src/shipment.errors.js'
-import { ShipmentRepository } from '../src/shipment.repository.js'
+import { ShipmentNotFoundError } from '../src/shipment/shipment.errors.js'
+import { ShipmentRepository } from '../src/shipment/shipment.repository.js'
 import { makeDataFile } from './helpers.js'
 
 let dataFile: string

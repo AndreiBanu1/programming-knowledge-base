@@ -6,7 +6,7 @@ import { join } from 'node:path'
 import request from 'supertest'
 import { AppModule } from '../src/app.module.js'
 import { setupDocs } from '../src/docs.js'
-import { SHIPMENT_FILE } from '../src/shipment.repository.js'
+import { SHIPMENT_FILE } from '../src/shipment/shipment.repository.js'
 
 export const SEED = [
   { id: 'SHP-2026-0001', weight: 2.5, content: 'Keyboard', status: 'delivered' },
