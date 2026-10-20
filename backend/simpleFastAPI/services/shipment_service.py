@@ -1,7 +1,13 @@
 from typing import Any
 
-from models.shipment import Shipment, ShipmentCreate, ShipmentPatch
 from repositories.shipment_repository import ShipmentRepository
+
+from backend.simpleFastAPI.models.shipment_model import (
+    Shipment,
+    ShipmentCreate,
+    ShipmentPatch,
+    ShipmentStatusEnum,
+)
 
 
 class ShipmentNotFoundError(Exception):
@@ -43,7 +49,7 @@ class ShipmentService:
             id=self._repo.next_id(),
             weight=shipment_create.weight,
             content=shipment_create.content,
-            status="pending",
+            status=ShipmentStatusEnum.PENDING,
         )
         return self._repo.add_shipment(new_shipment)
 

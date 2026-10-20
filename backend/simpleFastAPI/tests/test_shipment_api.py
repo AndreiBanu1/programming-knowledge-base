@@ -85,6 +85,7 @@ class TestUpdate:
             "weight": 5.0,
             "content": "Changed",
             "status": "delivered",
+            "destination": None,
         }
 
     def test_does_not_create_a_duplicate(self, client: TestClient):

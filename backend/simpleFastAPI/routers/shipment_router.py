@@ -2,13 +2,14 @@ from typing import Annotated, Any
 
 from dependencies import get_shipment_service
 from fastapi import APIRouter, Depends, HTTPException
-from models.shipment import Shipment, ShipmentCreate, ShipmentPatch
 from services.shipment_service import (
     InvalidFieldError,
     InvalidWeightError,
     ShipmentNotFoundError,
     ShipmentService,
 )
+
+from backend.simpleFastAPI.models.shipment_model import Shipment, ShipmentCreate, ShipmentPatch
 
 router = APIRouter(prefix="/shipment", tags=["shipments"])
 

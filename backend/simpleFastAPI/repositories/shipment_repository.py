@@ -1,8 +1,9 @@
 from datetime import datetime
 from pathlib import Path
 
-from models.shipment import Shipment
 from pydantic import TypeAdapter
+
+from backend.simpleFastAPI.models.shipment_model import Shipment
 
 _shipments_adapter: TypeAdapter[list[Shipment]] = TypeAdapter(list[Shipment])
 

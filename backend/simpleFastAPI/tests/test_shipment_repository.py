@@ -3,7 +3,7 @@
 import json
 from pathlib import Path
 
-from models.shipment import Shipment
+from backend.simpleFastAPI.models.shipment_model import Shipment
 from repositories.shipment_repository import ShipmentRepository
 
 
@@ -46,7 +46,13 @@ def test_update_shipment_replaces_row_instead_of_duplicating(
     rows = [s for s in saved if s["id"] == "SHP-2026-0001"]
     assert len(saved) == 3  # regression: the old add_shipment-based update made this 4
     assert rows == [
-        {"id": "SHP-2026-0001", "weight": 2.5, "content": "Changed", "status": "delivered"}
+        {
+            "id": "SHP-2026-0001",
+            "weight": 2.5,
+            "content": "Changed",
+            "status": "delivered",
+            "destination": "New York",
+        }
     ]
     assert saved[0]["id"] == "SHP-2026-0001"  # position preserved
 

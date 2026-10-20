@@ -1,21 +1,30 @@
 import random
-from typing import Literal
+from enum import StrEnum
 
 from pydantic import BaseModel, ConfigDict, Field
 
-ShipmentStatus = Literal["pending", "processing", "in_transit", "delivered"]
 
+class ShipmentStatusEnum(StrEnum):
+    PENDING = "pending"
+    PROCESSING = "processing"
+    IN_TRANSIT = "in_transit"
+    DELIVERED = "delivered"
 
 def random_destination() -> str:
     destinations = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"]
     return random.choice(destinations)
+
+class BaseShipment(BaseModel):
+    weight: float = Field(gt=0, le=100, description="Weight must be between 0 and 100")
+    content: str
+    
 
 
 class Shipment(BaseModel):
     id: str
     weight: float
     content: str
-    status: ShipmentStatus
+    status: ShipmentStatusEnum
     destination: str | None = Field(
         description="Destination is optional and can be None", default_factory=random_destination
     )
@@ -34,4 +43,4 @@ class ShipmentPatch(BaseModel):
 
     weight: float | None = Field(default=None, gt=0, le=100)
     content: str | None = None
-    status: ShipmentStatus | None = None
+    status: ShipmentStatusEnum | None = None

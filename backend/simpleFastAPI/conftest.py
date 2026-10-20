@@ -16,9 +16,9 @@ from main import app
 from repositories.shipment_repository import ShipmentRepository
 
 SEED = [
-    {"id": "SHP-2026-0001", "weight": 2.5, "content": "Keyboard", "status": "delivered"},
-    {"id": "SHP-2026-0002", "weight": 18.0, "content": "Chair", "status": "in_transit"},
-    {"id": "SHP-2026-0003", "weight": 0.8, "content": "Cables", "status": "processing"},
+    {"id": "SHP-2026-0001", "weight": 2.5, "content": "Keyboard", "status": "delivered", "destination": "New York"},
+    {"id": "SHP-2026-0002", "weight": 18.0, "content": "Chair", "status": "in_transit", "destination": "Chicago"},
+    {"id": "SHP-2026-0003", "weight": 0.8, "content": "Cables", "status": "processing", "destination": "Houston"},
 ]
 
 
