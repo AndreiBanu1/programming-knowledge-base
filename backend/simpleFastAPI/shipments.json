@@ -1,110 +1,142 @@
 [
   {
-    "id": "SHP-2026-0001",
     "weight": 2.45,
     "content": "Wireless keyboard and mouse",
+    "destination": "Phoenix",
+    "id": "SHP-2026-0001",
     "status": "delivered"
   },
   {
-    "id": "SHP-2026-0002",
     "weight": 18.7,
     "content": "Office chair",
+    "destination": "Houston",
+    "id": "SHP-2026-0002",
     "status": "in_transit"
   },
   {
-    "id": "SHP-2026-0003",
     "weight": 0.85,
     "content": "USB-C charging cables",
+    "destination": "Chicago",
+    "id": "SHP-2026-0003",
     "status": "delivered"
   },
   {
-    "id": "SHP-2026-0004",
     "weight": 12.3,
     "content": "Coffee machine",
+    "destination": "Los Angeles",
+    "id": "SHP-2026-0004",
     "status": "processing"
   },
   {
-    "id": "SHP-2026-0005",
     "weight": 5.6,
     "content": "Running shoes",
+    "destination": "Phoenix",
+    "id": "SHP-2026-0005",
     "status": "in_transit"
   },
   {
-    "id": "SHP-2026-0006",
     "weight": 24.9,
     "content": "Computer monitor, 27 inch",
+    "destination": "Phoenix",
+    "id": "SHP-2026-0006",
     "status": "pending"
   },
   {
-    "id": "SHP-2026-0007",
     "weight": 1.2,
     "content": "Paperback books",
+    "destination": "Phoenix",
+    "id": "SHP-2026-0007",
     "status": "delivered"
   },
   {
-    "id": "SHP-2026-0008",
     "weight": 9.35,
     "content": "Kitchen cookware set",
+    "destination": "Chicago",
+    "id": "SHP-2026-0008",
     "status": "in_transit"
   },
   {
-    "id": "SHP-2026-0009",
     "weight": 32.8,
     "content": "Flat-pack furniture",
+    "destination": "Houston",
+    "id": "SHP-2026-0009",
     "status": "processing"
   },
   {
-    "id": "SHP-2026-0010",
     "weight": 0.45,
     "content": "Smartphone protective case",
+    "destination": "Phoenix",
+    "id": "SHP-2026-0010",
     "status": "delivered"
   },
   {
-    "id": "SHP-2026-0011",
     "weight": 7.75,
     "content": "Pet food and accessories",
+    "destination": "New York",
+    "id": "SHP-2026-0011",
     "status": "in_transit"
   },
   {
-    "id": "SHP-2026-0012",
     "weight": 15.2,
     "content": "Home office printer",
+    "destination": "Phoenix",
+    "id": "SHP-2026-0012",
     "status": "pending"
   },
   {
-    "id": "SHP-2026-0013",
     "weight": 3.4,
     "content": "Skincare products",
+    "destination": "Los Angeles",
+    "id": "SHP-2026-0013",
     "status": "delivered"
   },
   {
-    "id": "SHP-2026-0014",
     "weight": 21.6,
     "content": "Car maintenance tools",
+    "destination": "Phoenix",
+    "id": "SHP-2026-0014",
     "status": "in_transit"
   },
   {
-    "id": "SHP-2026-0015",
     "weight": 4.15,
     "content": "Baby clothes and blankets",
+    "destination": "Houston",
+    "id": "SHP-2026-0015",
     "status": "processing"
   },
   {
-    "id": "SHP-2026-0016",
     "weight": 22.0,
     "content": "electronics",
+    "destination": "Chicago",
+    "id": "SHP-2026-0016",
     "status": "pending"
   },
   {
+    "weight": 1.0,
+    "content": "",
+    "destination": "New York",
     "id": "SHP-2026-0017",
-    "weight": 1.0,
-    "content": "",
     "status": "pending"
   },
   {
-    "id": "SHP-2026-0018",
     "weight": 1.0,
     "content": "",
+    "destination": "Phoenix",
+    "id": "SHP-2026-0018",
+    "status": "pending"
+  },
+  {
+    "weight": 1.0,
+    "content": "",
+    "destination": "New York",
+    "id": "SHP-2026-0019",
+    "status": "pending"
+  },
+  {
+    "weight": 1.0,
+    "content": "",
+    "destination": "",
+    "id": "SHP-2026-0020",
     "status": "pending"
   }
 ]

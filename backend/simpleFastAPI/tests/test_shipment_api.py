@@ -77,7 +77,9 @@ class TestCreate:
 
 class TestUpdate:
     def test_replaces_weight_and_content_but_keeps_id_and_status(self, client: TestClient):
-        response = client.put("/shipment/SHP-2026-0001", json={"weight": 5, "content": "Changed"})
+        response = client.put(
+            "/shipment/SHP-2026-0001", json={"weight": 5, "content": "Changed", "destination": None}
+        )
 
         assert response.status_code == 200
         assert response.json() == {

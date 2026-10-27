@@ -3,8 +3,9 @@
 import json
 from pathlib import Path
 
-from backend.simpleFastAPI.models.shipment_model import Shipment
 from repositories.shipment_repository import ShipmentRepository
+
+from models.shipment_model import ShipmentRead
 
 
 def test_get_by_id_returns_none_for_unknown_id(repo: ShipmentRepository):
@@ -27,7 +28,7 @@ def test_next_id_restarts_numbering_in_a_new_year(repo: ShipmentRepository, monk
 
 
 def test_add_shipment_appends_and_persists(repo: ShipmentRepository, data_file: Path):
-    repo.add_shipment(Shipment(id="SHP-2026-0004", weight=1, content="New", status="pending"))
+    repo.add_shipment(ShipmentRead(id="SHP-2026-0004", weight=1, content="New", status="pending"))
 
     saved = json.loads(data_file.read_text())
     assert [s["id"] for s in saved][-1] == "SHP-2026-0004"
